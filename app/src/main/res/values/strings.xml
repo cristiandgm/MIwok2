@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Miwok2</string>
+
+    <!-- Category name for the vocabulary words for numbers -->
+    <string name="numbers_category">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members -->
+    <string name="family_members_category">Family members</string>
+
+    <!-- Category name for the vocabulary words for colors -->
+    <string name="colors_category">Colors</string>
+
+    <!-- Category name for the vocabulary words for phrases -->
+    <string name="phrases_category">Phrases</string>
+
+</resources>
