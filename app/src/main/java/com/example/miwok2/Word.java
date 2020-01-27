@@ -12,6 +12,12 @@ public class Word {
     //Miwok translation for the word
     private String mMiwokTranslation;
 
+    /**
+     * Create a new Word object.
+     *
+     * @param miwokTranslation   is the miwok word.
+     * @param defaultTranslation is the english word.
+     */
     public Word(String defaultTranslation, String miwokTranslation) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
@@ -19,8 +25,6 @@ public class Word {
 
     /**
      * Get the default translation of the word.
-     *
-     * @return
      */
     public String getDefaultTranslation() {
         return mDefaultTranslation;
@@ -28,8 +32,6 @@ public class Word {
 
     /**
      * Get the Miwok translation of the word.
-     *
-     * @return
      */
     public String getMiwokTranslation() {
         return mMiwokTranslation;
