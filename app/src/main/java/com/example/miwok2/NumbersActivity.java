@@ -23,17 +23,17 @@ public class NumbersActivity extends AppCompatActivity {
 
         // Create a list of words
         words.add(new Word("One", "Lutti"));
-        words.add(new Word("Two", "otiiko"));
-        /**
-        words.add("Three");
-        words.add("Four");
-        words.add("Five");
-        words.add("Six");
-        words.add("Seven");
-        words.add("Eight");
-        words.add("Nine");
-        words.add("Ten");
-         */
+        words.add(new Word("Two", "Otiiko"));
+        words.add(new Word("Three", "Tolookosu"));
+        words.add(new Word("Four", "Oyyisa"));
+        words.add(new Word("Five", "Massokka"));
+        words.add(new Word("Six", "Temmokka"));
+        words.add(new Word("Seven", "Kenekaku"));
+        words.add(new Word("Eight", "Kawinta"));
+        words.add(new Word("Nine", "Wo'e"));
+        words.add(new Word("Ten", "Na'aacha"));
+
+
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
         // simple_list_item_1.xml layout resource defined in the Android framework.
