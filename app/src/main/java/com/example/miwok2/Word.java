@@ -1,5 +1,7 @@
 package com.example.miwok2;
 
+import android.widget.ImageView;
+
 /**
  * {@link Word} represents a vocabulary  word  that the user wants to learn.
  * It contains a default translation and a Miwok translation  for that word.
