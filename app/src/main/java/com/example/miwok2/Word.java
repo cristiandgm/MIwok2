@@ -36,7 +36,7 @@ public class Word {
      * @param imageResource is the drawable resource id associated with the word
      */
     public Word(String defaultTranslation, String miwokTranslation, int imageResource) {
-        mImageResourceId = imageResource;
+        mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
         mImageResourceId = imageResource;
     }
