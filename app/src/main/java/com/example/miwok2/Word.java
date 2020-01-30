@@ -8,6 +8,9 @@ import android.widget.ImageView;
  */
 public class Word {
 
+    //Image resource ID
+    private int mImageResourceId;
+
     //Default translation for the word
     private String mDefaultTranslation;
 
@@ -23,6 +26,13 @@ public class Word {
     public Word(String defaultTranslation, String miwokTranslation) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
+    }
+
+    /**
+     * Get the image resource id.
+     */
+    public int getImageResourceId() {
+        return mImageResourceId;
     }
 
     /**
