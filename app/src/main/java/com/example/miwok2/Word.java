@@ -8,7 +8,7 @@ import android.widget.ImageView;
  */
 public class Word {
 
-    //Image resource ID
+    //Image resource ID for the word
     private int mImageResourceId;
 
     //Default translation for the word
