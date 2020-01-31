@@ -1,7 +1,5 @@
 package com.example.miwok2;
 
-import android.widget.ImageView;
-
 /**
  * {@link Word} represents a vocabulary  word  that the user wants to learn.
  * It contains a default translation and a Miwok translation  for that word.
@@ -24,6 +22,7 @@ public class Word {
      * @param defaultTranslation is the english word.
      */
     public Word(String defaultTranslation, String miwokTranslation) {
+
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
     }
@@ -57,6 +56,7 @@ public class Word {
 
     /**
      * Get the image resource id.
+     * @return
      */
     public int getImageResourceId() {
         return mImageResourceId;
